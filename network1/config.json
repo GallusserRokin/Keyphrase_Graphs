@@ -39,6 +39,7 @@
       "defaultLabelSize": 12,
       "labelSize": "proportional",
       "labelSizeRatio": 2
+      "nodeHoverRatio": 20
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
