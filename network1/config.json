@@ -8,8 +8,8 @@
     "text": "Florian Gallusser"
   },
   "text": {
-    "more": "",
-    "intro": "on the topics Car IoT and Cybersecurity",
+    "more": "-CarIoTCybersecurity -roberta2tag -kp30 -min2 -norm1 -emb1 -similarity>=0.85 -min10edges -ACR not replaced",
+    "intro": "of the topics Autonomous Cars, IoT and Cybersecurity",
     "title": "Keyphrase Graph"
   },
   "legend": {

@@ -707,7 +707,8 @@ sigma.classes.EventDispatcher = function () {
             edgesSpeed: 200,
             nodesSpeed: 200,
             nodesBGSpeed: 200,
-            labelsSpeed: 200
+            labelsSpeed: 200,
+            nodeHoverRatio: 20
         };
         var n = f,
             y = k;
@@ -717,7 +718,7 @@ sigma.classes.EventDispatcher = function () {
                 var d = a.nodes[j.currentLabelIndex++],
                     f = h;
                 if (d.displaySize >= j.p.labelThreshold) {
-                    var g = "fixed" == j.p.labelSize ? j.p.defaultLabelSize : j.p.labelSizeRatio * d.displaySize;
+                    var g = "fixed" == j.p.labelSize ? j.p.defaultLabelSize : j.p.labelSizeRatio * d.displaySize + j.p.nodeHoverRatio;
                     f.font = (j.p.hoverFontStyle || j.p.fontStyle || "") + " " + g + "px " + (j.p.hoverFont || j.p.font || "");
                     var i = Math.round,
                         m = i(d.displayX + 10),
