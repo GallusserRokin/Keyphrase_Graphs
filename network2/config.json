@@ -8,7 +8,7 @@
     "text": "Florian Gallusser"
   },
   "text": {
-    "more": "-CarIoTCybersecurity -roberta2tag -kp30 -min2 -norm1 -emb1 -similarity>=0.85 -min10edges -ACR not replaced",
+    "more": "-CarIoTCybersecurity -roberta2tag -kp30 -min2 -norm1 -emb1 -similarity>=0.85 -max10edges -ACR replaced",
     "intro": "of the topics Autonomous Cars, IoT and Cybersecurity",
     "title": "Keyphrase Graph"
   },
@@ -33,13 +33,13 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "",
-      "labelThreshold": 8,
+      "labelThreshold": 6,
       "defaultLabelHoverColor": "#fff",
       "hoverFontStyle": "bold",
       "defaultLabelSize": 14,
-      "labelSize": "proportional",
-      "labelSizeRatio": 2
-
+      "labelSize": "fixed",
+      "labelSizeRatio": 3,
+      "fontstyle":"bold"
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
