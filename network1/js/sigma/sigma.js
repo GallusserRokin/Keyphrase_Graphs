@@ -693,8 +693,8 @@ sigma.classes.EventDispatcher = function () {
             fontStyle: "",
             hoverFontStyle: "",
             activeFontStyle: "",
-            edgeColor: "default",
-            defaultEdgeColor: "#bbb",
+            edgeColor: "source",
+            defaultEdgeColor: "#aaa",
             defaultEdgeType: "line",
             defaultNodeColor: "#aaa",
             nodeHoverColor: "node",
@@ -845,7 +845,7 @@ sigma.classes.EventDispatcher = function () {
         this.drawActiveNode = function (a) {
             var b = c;
             if (!m(a)) return j;
-            var d = "fixed" == j.p.labelSize ? j.p.defaultLabelSize +20 : j.p.labelSizeRatio * a.displaySize;
+            var d = "fixed" == j.p.labelSize ? j.p.defaultLabelSize : j.p.labelSizeRatio * a.displaySize;
             b.font = (j.p.activeFontStyle || j.p.fontStyle || "") + " " + d + "px " + (j.p.activeFont || j.p.font || "");
             b.fillStyle = "node" == j.p.labelHoverBGColor ? a.color || j.p.defaultNodeColor : j.p.defaultActiveLabelBGColor;
             b.beginPath();
