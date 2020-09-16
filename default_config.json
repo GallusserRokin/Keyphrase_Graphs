@@ -1,0 +1,55 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Florian Gallusser"
+  },
+  "text": {
+    "more": "-CarIoTCybersecurity -roberta2tag -kp30 -min2 -norm1 -emb1 -similarity>=0.85 -min10edges -ACR not replaced",
+    "intro": "of the topics Autonomous Cars, IoT and Cybersecurity",
+    "title": "Keyphrase Graph"
+  },
+  "legend": {
+    "edgeLabel": "Links between Keyphrases",
+    "colorLabel": "Topics",
+    "nodeLabel": "Keyphrases"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "",
+      "labelThreshold": 7,
+      "defaultLabelHoverColor": "#fff",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "labelSize": "proportional",
+      "labelSizeRatio": 1.5
+
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 2,
+      "maxNodeSize": 8
+    },
+    "mouseProperties": {
+      "maxRatio": 100,
+      "minRatio": 1
+    }
+  }
+}
