@@ -1,4 +1,4 @@
-GoTo https://gallusserrokin.github.io/Keyphrase_Graphs/network1 and change the number to the according network you want to explore.
+GoTo https://gallusserrokin.github.io/Keyphrase_Graphs/network1 and change the number in the url to the according network you want to explore.
 
 # Available Networks
 
