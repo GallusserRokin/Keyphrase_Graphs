@@ -1,0 +1,56 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Florian Gallusser"
+  },
+  "text": {
+    "more": "",
+    "intro": "Dataset: Car_IoT_Cyberesecurity\nroberta2tag\nKp: 20\nmin 2\nnorm1\nemb 1\nsimilarit \u003e\u003d 0.85\nmax 10 edges\njenks classes 4\n\n",
+    "title": "Keyphrase Graph"
+  },
+  "legend": {
+    "edgeLabel": "Related Keyphrases",
+    "colorLabel": "Topics",
+    "nodeLabel": "Keyphrases"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "font":"Arial Black",
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "",
+      "labelThreshold": 6,
+      "defaultLabelHoverColor": "#fff",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "labelSize": "proportional",
+      "labelSizeRatio": 1.5
+
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 0.1,
+      "maxNodeSize": 5
+    },
+    "mouseProperties": {
+      "maxRatio": 50,
+      "minRatio": 1
+    }
+  }
+}
