@@ -14,5 +14,7 @@ network5: -3D_printing_5000 -roberta2tag -k200 -min2 -norm1 -max10edges -jenks_c
 
 network6: -CarIoTCybersecurity -roberta2tag -kp20 -min2 -norm1 -emb1 -similarity>=0.85 -max10edges -Articles incorporated
 
+network7: -Article_Data_August_Rand50000 -roberta2tag -kp20 -min20 -norm1 -max120edges
+
 
 
