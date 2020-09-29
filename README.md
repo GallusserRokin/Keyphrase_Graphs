@@ -16,5 +16,9 @@ network6: -CarIoTCybersecurity -roberta2tag -kp20 -min2 -norm1 -emb1 -similarity
 
 network7: -Article_Data_August_Rand50000 -roberta2tag -kp20 -min20 -norm1 -max120edges
 
+network8: -Car_IoT_Cybersecurity -roberta2tag -kp5 -min2 -norm1 -emb1 -max10edges -tfidf node score
+
+network8: -Car_IoT_Cybersecurity -roberta2tag -kp5 -min2 -norm1 -emb1 -max10edges -weighted node score
+
 
 
