@@ -20,5 +20,7 @@ network8: -Car_IoT_Cybersecurity -roberta2tag -kp5 -min2 -norm1 -emb1 -max10edge
 
 network8: -Car_IoT_Cybersecurity -roberta2tag -kp5 -min2 -norm1 -emb1 -max10edges -weighted node score
 
+network11: Newest Car_IoT_Cybersecurity Graph (15.10.2020)
+
 
 
