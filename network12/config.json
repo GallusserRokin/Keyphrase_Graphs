@@ -1,0 +1,56 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Florian Gallusser"
+  },
+  "text": {
+    "more": "",
+    "intro": "Keyphrase graph for the topics 3D printing and additive manufacturing\n",
+    "title": "Keyphrase Graph"
+  },
+  "legend": {
+    "edgeLabel": "Related Keyphrases",
+    "colorLabel": "Topics",
+    "nodeLabel": "Keyphrases"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "font":"Arial Black",
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "",
+      "labelThreshold": 4,
+      "defaultLabelHoverColor": "#fff",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14,
+      "labelSize": "proportional",
+      "labelSizeRatio": 1.8
+
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 5
+    },
+    "mouseProperties": {
+      "maxRatio": 100,
+      "minRatio": 1
+    }
+  }
+}
