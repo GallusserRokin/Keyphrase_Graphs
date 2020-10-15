@@ -22,5 +22,7 @@ network8: -Car_IoT_Cybersecurity -roberta2tag -kp5 -min2 -norm1 -emb1 -max10edge
 
 network11: Newest Car_IoT_Cybersecurity Graph (15.10.2020)
 
+network12: Newest 3D printing Graph (15.10.2020)
+
 
 
